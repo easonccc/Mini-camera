@@ -1,0 +1,7 @@
+<camera device-position="{{position}}" flash="off" style="width: 100%; height: {{phoneHight}}px;">
+	<cover-view class="btn_box">
+		<cover-image src="/images/icon/reverse.png" bindtap="reverse"></cover-image>
+		<cover-image src="/images/icon/camera.png" bindtap="takePhoto"></cover-image>
+		<cover-image src="/images/icon/album.png" bindtap="selectePhoto"></cover-image>
+	</cover-view>
+</camera>
